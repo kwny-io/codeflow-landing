@@ -1,18 +1,44 @@
-# React + Vite
+# My-practice-content 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[English](#english) | [中文版](#chinese)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<a name="english"></a>
+## 🇬🇧 English
 
-## React Compiler
+### 🌟 Project Overview
+This is a personal practice project built with **React + Vite**. It is an **independent interactive web application** designed to showcase modern frontend development workflows and UI/UX implementation.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+### 🛠 Tech Stack
+- **Framework**: React 18
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS (if applicable)
+- **Version Control**: Git & GitHub
 
-Note: This will impact Vite dev & build performances.
+### 📈 Roadmap & Progress
+- [x] ✅ Environment setup and project initialization.
+- [x] ✅ Successfully synchronized local code with GitHub.
+- [x] ✅ Mastered basic Git operations (`add`, `commit`, `push`, `clone`).
+- [ ] 🚧 Developing the "About Me" personal introduction page.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+<a name="chinese"></a>
+## 🇨🇳 中文版
+
+### 🌟 项目概述
+这是一个基于 **React + Vite** 的个人练习项目。这是一个**独立性的交互式网页应用**，旨在展示现代前端开发流程以及 UI/UX 的实现能力。
+
+### 🛠 技术栈
+- **核心框架**: React 18
+- **构建工具**: Vite
+- **样式处理**: Tailwind CSS (如果是的话)
+- **版本控制**: Git & GitHub
+
+### 📈 进度清单
+- [x] ✅ 环境搭建与项目初始化。
+- [x] ✅ 成功实现本地代码与 GitHub 同步。
+- [x] ✅ 熟练掌握 Git 基础操作 (`add`, `commit`, `push`, `clone`)。
+- [ ] 🚧 正在开发“关于我”个人介绍页面。
