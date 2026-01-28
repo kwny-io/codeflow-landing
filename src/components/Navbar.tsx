@@ -15,8 +15,8 @@ export default function Navbar() {
                     />
                 </div>
                     <span className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-medium ">
-                        <span className="bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent font-extrabold tracking-tight ">Code</span>
-                        <span className="bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent font-extrabold tracking-tight ">Flow</span>
+                        <span className="bg-gradient-to-b from-pink-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent font-extrabold tracking-tight ">Code</span>
+                        <span className="bg-gradient-to-b from-pink-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent font-extrabold tracking-tight ">Flow</span>
                     </span>
             </div>
             {/* nav links */}

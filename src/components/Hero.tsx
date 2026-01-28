@@ -30,7 +30,7 @@ export default function Hero() {
         {/* 主内容容器 - 居中与相对定位 */}
         <div className="max-w-7xl  mx-auto text-center relative w-full">
             {/* 布局容器 - Grid 网格布局：左侧文字，右侧演示 */}
-            <div className="max-w-7xl mx-auto flex flex-col lg:grid lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-12 items-center relative overflow-hidden">
+            <div className="max-w-7xl mx-auto flex flex-col lg:grid lg:grid-cols-2 text-center lg:text-left  gap-6 sm:gap-8 lg:gap-12 items-center relative overflow-hidden">
             {/* 左侧内容区 - Flex 纵向布局 */}
             <div >
                 {/* 标签容器 - Flex 居中与背景色 */}
@@ -38,7 +38,7 @@ export default function Hero() {
                     <Sparkles className="w-full h-full text-purple-400"/> 
                     <span className="text-xs sm:text-sm text-purple-400 ">Introducin CodeFlow AI</span>
                 </div>
-                <h1 className="text-5xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold mb-4 sm:mb-6 animate-in slide-in-from-bottom duration-700 delay-100 leading-tight">
+                <h1 className="text-5xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold xl:text-6xl mb-4 sm:mb-6 animate-in slide-in-from-bottom duration-700 delay-100 leading-tight">
                     <span className="bg-gradient-to-b from-pink-400 via-purple-500 to-red-600 bg-clip-text text-transparent block mb-1 sm:mb-2">Code Faster</span>
                     <span className="bg-gradient-to-b from-blue-400 via-indigo-500 to-purple-600 bg-clip-text text-transparent block mb-1 sm:mb-2">Builde Better</span>
                     <span className="bg-gradient-to-t from-blue-700 via-indigo-600 to-purple-600 bg-clip-text text-transparent block mb-1 sm:mb-2">With CodeFlow AI</span>
