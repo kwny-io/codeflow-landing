@@ -4,7 +4,7 @@ import { useState } from "react";
 export default function Navbar() {
     const [mobileMenuIsOpen, setMobileMenuIsOpen] = useState(false)
   return (
-    <nav className="fixed top-0 w-full z-50 transition-all duration-300 bg-slate-950/20 backdrop-blur-md border-b">
+    <nav className="fixed top-0 w-full z-50 transition-all duration-300 bg-slate-950/30 backdrop-blur-md border-b border-slate-800/60">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-14 sm:h-16 md:h-20 ">
             <div className="flex items-center space-x-1 group cursor-pointer   ">{/*lg变大是在这里加码 */}
@@ -15,8 +15,8 @@ export default function Navbar() {
                     />
                 </div>
                     <span className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-medium ">
-                        <span className="bg-gradient-to-b from-pink-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent font-extrabold tracking-tight ">Code</span>
-                        <span className="bg-gradient-to-b from-pink-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent font-extrabold tracking-tight ">Flow</span>
+                        <span className="bg-gradient-to-b from-blue-400 via-indigo-500 to-purple-600 bg-clip-text text-transparent font-extrabold tracking-tight ">Code</span>
+                        <span className="bg-gradient-to-b from-blue-400 via-indigo-500 to-purple-600 bg-clip-text text-transparent font-extrabold tracking-tight ">Flow</span>
                     </span>
             </div>
             {/* nav links */}
@@ -40,7 +40,7 @@ export default function Navbar() {
                     Testimonials
                 </a>
             </div>
-            <button className="md:hidden p-2 text-gray-300 hover:text-white-300 cursor-pointer" 
+            <button className="md:hidden p-2 text-gray-300 hover:text-white cursor-pointer" 
             onClick={() => setMobileMenuIsOpen((prev)=>!prev)}
             >  
             {mobileMenuIsOpen ? ( <X className="w-5 h-5 sm:w-6 sm:h-6"/> )  
