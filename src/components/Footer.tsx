@@ -14,7 +14,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="col-span-2">
             <div className="flex items-center gap-2">
-              <span className="text-xl font-extrabold tracking-tight bg-gradient-to-b from-pink-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent">
+              <span className="text-xl font-extrabold tracking-tight bg-gradient-to-b from-blue-400 via-indigo-500 to-purple-600 bg-clip-text text-transparent">
                 CodeFlow
               </span>
             </div>

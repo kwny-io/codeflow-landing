@@ -52,7 +52,7 @@ export default function Pricing() {
         <div className="text-center mb-12 sm:mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold">
             Simple, honest{" "}
-            <span className="bg-gradient-to-b from-pink-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-b from-blue-400 via-indigo-500 to-purple-600 bg-clip-text text-transparent">
               Pricing
             </span>
           </h2>
@@ -73,7 +73,7 @@ export default function Pricing() {
               }`}
             >
               {plan.highlighted && (
-                <span className="absolute -top-3 left-1/2 -translate-x-1/2 inline-flex items-center gap-1 rounded-full bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 px-3 py-1 text-xs font-medium text-white">
+                <span className="absolute -top-3 left-1/2 -translate-x-1/2 inline-flex items-center gap-1 rounded-full bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-600 px-3 py-1 text-xs font-medium text-white">
                   <Sparkles className="h-3 w-3" /> Most popular
                 </span>
               )}
@@ -98,7 +98,7 @@ export default function Pricing() {
               <button
                 className={`mt-8 w-full rounded-xl py-2.5 text-sm font-medium transition-colors ${
                   plan.highlighted
-                    ? "bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 text-white hover:opacity-90"
+                    ? "bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-600 text-white hover:opacity-90"
                     : "border border-slate-600 text-white hover:border-slate-400"
                 }`}
               >

@@ -31,7 +31,7 @@ export default function Testimonials() {
         <div className="text-center mb-12 sm:mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold">
             Loved by{" "}
-            <span className="bg-gradient-to-b from-pink-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-b from-blue-400 via-indigo-500 to-purple-600 bg-clip-text text-transparent">
               Developers
             </span>
           </h2>
@@ -56,7 +56,7 @@ export default function Testimonials() {
                 "{t.quote}"
               </p>
               <div className="mt-6 flex items-center gap-3">
-                <div className="flex items-center justify-center h-10 w-10 rounded-full bg-gradient-to-br from-pink-500 via-purple-500 to-indigo-500 text-sm font-semibold text-white">
+                <div className="flex items-center justify-center h-10 w-10 rounded-full bg-gradient-to-br from-blue-500 via-indigo-500 to-purple-600 text-sm font-semibold text-white">
                   {t.initials}
                 </div>
                 <div>

@@ -53,7 +53,7 @@ export default function Features() {
         <div className="text-center mb-12 sm:mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold">
             Your Complete Development{" "}
-            <span className="bg-gradient-to-b from-pink-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-b from-blue-400 via-indigo-500 to-purple-600 bg-clip-text text-transparent">
               Workflow
             </span>
           </h2>
