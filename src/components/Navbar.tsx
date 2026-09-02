@@ -9,7 +9,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-14 sm:h-16 md:h-20 ">
             <div className="flex items-center space-x-1 group cursor-pointer   ">{/*lg变大是在这里加码 */}
                 <div>
-                    <img src="/logo.png"
+                    <img src={import.meta.env.BASE_URL + 'logo.png'}
                     alt="codeflow" 
                     className="h-6 w-6 sm:h-8 sm:w-8" 
                     />
